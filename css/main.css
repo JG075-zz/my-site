@@ -95,12 +95,75 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+@font-face {font-family: "Perpetua Titling MT Bold V1";
+  src: url("../fonts/6044a98d98867449410c8d7cfebb6375.eot"); /* IE9*/
+  src: url("../fonts/6044a98d98867449410c8d7cfebb6375.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/6044a98d98867449410c8d7cfebb6375.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/6044a98d98867449410c8d7cfebb6375.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/6044a98d98867449410c8d7cfebb6375.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/6044a98d98867449410c8d7cfebb6375.svg#Perpetua Titling MT Bold V1") format("svg"); /* iOS 4.1- */
+}
 
+body {
+    background: #fafafa url("../img/bg.png");
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 18px;
+}
 
+.container {
+    width: 1120px;
+    padding: 0px 52px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
 
+header {
+    padding-top: 45px;
+}
 
+header a {
+    text-decoration: none;
+    color: #000;
+}
 
+header .head-left {
+    float: left;
+    width: 50%;
+}
 
+header .head-left h1 {
+    float: left;
+    margin-right: 69px;
+    font-family: "Perpetua Titling MT Bold V1", Serif;
+    font-size: 35px;
+    font-weight: 100;
+    margin-top: -14px;
+}
+
+header .head-right a {
+    float: right;
+    font-size: 16px;
+    font-weight: 100;
+    padding-top: 2px;
+    background: url(../img/github.png) center right no-repeat;
+    background-size: 22px;
+    padding-right: 30px;
+}
+
+header .head-right a:hover {
+    font-weight: 300;
+    color: #7c7c7c;
+    background: url(../img/github-hover.png) center right no-repeat;
+    background-size: 22px;
+    padding-right: 30px;
+}
+
+header h1, a, p {
+    margin: 0px;
+    padding: 0px;
+}
 
 
 
