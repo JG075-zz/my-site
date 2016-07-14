@@ -166,15 +166,17 @@ header h1, a, p {
 }
 
 .section {
-    width: 90%;
-    float: right;
+
+
 }
 
 #pattern-top {
+    width: 90%;
     background: url('../img/pattern-top.png') top left repeat-x;
     height: 10px;
     clear: left;
     margin-top: 20px;
+    float: right;
 }
 
 #about {
@@ -183,7 +185,7 @@ header h1, a, p {
     border-top: none;
     height: 500px;
     clear: both;
-    width: 90%;
+    width: 89.9%;
     float: right;
 }
 
