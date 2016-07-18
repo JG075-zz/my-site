@@ -108,11 +108,11 @@ body {
     background: #fafafa url("../img/bg.png");
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 #container {
-    width: 1120px;
+    width: 1170px;
     padding: 0px 52px;
     margin-left: auto;
     margin-right: auto;
@@ -144,12 +144,12 @@ header #head-left h1 {
 
 header #head-right a {
     float: right;
-    font-size: 16px;
     font-weight: 100;
     padding-top: 2px;
     background: url(../img/github.png) center right no-repeat;
     background-size: 22px;
     padding-right: 30px;
+    outline:none;
 }
 
 header #head-right a:hover {
@@ -165,29 +165,53 @@ header h1, a, p {
     padding: 0px;
 }
 
-.section {
-
-
-}
-
 #pattern-top {
     width: 90%;
     background: url('../img/pattern-top.png') top left repeat-x;
-    height: 10px;
+    background-size: 21px;
+    height: 8.8px;
     clear: left;
     margin-top: 20px;
     float: right;
 }
 
 #about {
+    clear: both;
+}
+
+.label {
+    float: left;
+    width: 10%;
+    height: 500px;
+    background: none;
+    padding-top: 45px;
+    line-height: 2.467;
+    font-size: 20px;
+}
+
+.label p {
+    float: right;
+    margin-right: 20px;
+}
+
+.label .glyphicons-user {
+    color: #14dfec;
+    margin-top: 8px;
+}
+
+.content {
+    float: left;
     background: #ffffff;
     border: 1px solid #ebebeb;
     border-top: none;
+    border-bottom: none;
+    width: 82.2%;
     height: 500px;
-    clear: both;
-    width: 89.9%;
-    float: right;
+    overflow: hidden;
+    padding: 48px 43px;
+    line-height: 2.467;
 }
+
 
 
 
