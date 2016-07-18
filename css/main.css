@@ -155,7 +155,7 @@ header #head-right a {
 header #head-right a:hover {
     font-weight: 300;
     color: #7c7c7c;
-    background: url(../img/github-hover.png) center right no-repeat;
+    background: url(../img/github-h.png) center right no-repeat;
     background-size: 22px;
     padding-right: 30px;
 }
@@ -193,14 +193,34 @@ header h1, a, p {
     margin-right: 20px;
 }
 
+.content {
+    float: left;
+    background: #ffffff;
+    border: 1px solid #ebebeb;
+    border-top: none;
+    border-bottom: none;
+    width: 82.2%;
+    overflow: hidden;
+    padding: 48px 43px 20px 43px;
+    line-height: 2.467;
+}
+
 #about .label .glyphicons-user {
     color: #14dfec;
     margin-top: 8px;
 }
 
+#skills ul {
+    margin-bottom: 0px;
+}
+
 #skills ul li {
     list-style: none;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
+}
+
+#skills ul li:last-child {
+    margin-bottom: 0px;
 }
 
 #skills ul a {
@@ -212,7 +232,7 @@ header h1, a, p {
 }
 
 #skills ul a:hover {
-    background: url(../img/bullet-hover.png) no-repeat center left;
+    background: url(../img/bullet-h.png) no-repeat center left;
     background-size:8px;
     color: #14ec51;
 }
@@ -222,16 +242,76 @@ header h1, a, p {
     margin-top: 8px;
 }
 
-.content {
+#work p:first-child {
+    margin-bottom: 45px;
+}
+
+#work .label .glyphicons-note {
+    color: #ecc114;
+    margin-top: 8px;
+}
+
+
+#work .port-item {
+    height: 213px;
+    width: 279.33px;
     float: left;
-    background: #ffffff;
-    border: 1px solid #ebebeb;
-    border-top: none;
-    border-bottom: none;
-    width: 82.2%;
-    overflow: hidden;
-    padding: 48px 43px;
-    line-height: 2.467;
+    margin-right: 59px;
+    border: 1px solid #e5e5e5;
+}
+
+#work #port-item1 {
+    background: url('../img/port1.jpg') no-repeat;
+    background-size: 279.33px;
+}
+
+#work #port-item1:hover {
+    background: url('../img/port1-h.jpg') no-repeat;
+    background-size: 279.33px;
+}
+
+#work #port-item1:hover #port-item1:after {
+    content: "cookies";
+}
+
+#work #port-item2 {
+    background: url('../img/port2.jpg') no-repeat;
+    background-size: 279.33px;
+}
+
+#work #port-item2:hover {
+    background: url('../img/port2-h.jpg') no-repeat;
+    background-size: 279.33px;
+}
+
+#work #port-item3 {
+    background: url('../img/port3.jpg') no-repeat;
+    background-size: 279.33px;
+}
+
+#work #port-item3:hover {
+    background: url('../img/port3-h.jpg') no-repeat;
+    background-size: 279.33px;
+}
+
+#work .row a:last-child {
+    margin-right: 0px;
+}
+
+.viewmore {
+    background: url(../img/bullet.png) no-repeat center left;
+    background-size: 8px;
+    padding-left: 20px;
+    float: right;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #222;
+}
+
+.viewmore:hover {
+    background: url(../img/viewmore-h.png) no-repeat center left;
+    background-size: 8px;
+    color: #ecc114;
 }
 
 
