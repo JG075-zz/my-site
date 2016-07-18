@@ -175,14 +175,13 @@ header h1, a, p {
     float: right;
 }
 
-#about {
+#about, #skills {
     clear: both;
 }
 
 .label {
     float: left;
     width: 10%;
-    height: 500px;
     background: none;
     padding-top: 45px;
     line-height: 2.467;
@@ -194,8 +193,32 @@ header h1, a, p {
     margin-right: 20px;
 }
 
-.label .glyphicons-user {
+#about .label .glyphicons-user {
     color: #14dfec;
+    margin-top: 8px;
+}
+
+#skills ul li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+#skills ul a {
+    background: url(../img/bullet.png) no-repeat center left;
+    background-size:8px;
+    padding-left: 30px;
+    text-decoration: none;
+    color: #222;
+}
+
+#skills ul a:hover {
+    background: url(../img/bullet-hover.png) no-repeat center left;
+    background-size:8px;
+    color: #14ec51;
+}
+
+#skills .label .glyphicons-cogwheels {
+    color: #14ec51;
     margin-top: 8px;
 }
 
@@ -206,7 +229,6 @@ header h1, a, p {
     border-top: none;
     border-bottom: none;
     width: 82.2%;
-    height: 500px;
     overflow: hidden;
     padding: 48px 43px;
     line-height: 2.467;
