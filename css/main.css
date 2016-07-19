@@ -209,6 +209,7 @@ header h1, a, p {
 #about .label .glyphicons-user {
     color: #14dfec;
     margin-top: 8px;
+    margin-left: 22px;
 }
 
 #skills ul {
@@ -241,6 +242,7 @@ header h1, a, p {
 #skills .label .glyphicons-cogwheels {
     color: #14ec51;
     margin-top: 8px;
+    margin-left: 20px;
 }
 
 #work p:first-child {
@@ -250,6 +252,7 @@ header h1, a, p {
 #work .label .glyphicons-note {
     color: #ecc114;
     margin-top: 8px;
+    margin-left: 25px;
 }
 
 
@@ -318,6 +321,7 @@ header h1, a, p {
 #contact .label .glyphicons-envelope {
     color: #ec1447;
     margin-top: 8px;
+    margin-left: 2px;
 }
 
 
