@@ -166,12 +166,13 @@ header h1, a, p {
 }
 
 #pattern-top {
-    width: 90%;
+    width: 87.5%;
     background: url('../img/pattern-top.png') top left repeat-x;
-    background-size: 21px;
-    height: 8.8px;
+    background-size: 19.7px;
+    height: 8.6px;
     clear: left;
     margin-top: 20px;
+    margin-right: 4.8px;
     float: right;
 }
 
@@ -181,7 +182,7 @@ header h1, a, p {
 
 .label {
     float: left;
-    width: 10%;
+    width: 12%;
     background: none;
     padding-top: 45px;
     line-height: 2.467;
@@ -199,7 +200,7 @@ header h1, a, p {
     border: 1px solid #ebebeb;
     border-top: none;
     border-bottom: none;
-    width: 82.2%;
+    width: 80.2%;
     overflow: hidden;
     padding: 48px 43px 20px 43px;
     line-height: 2.467;
@@ -253,21 +254,21 @@ header h1, a, p {
 
 
 #work .port-item {
-    height: 213px;
-    width: 279.33px;
+    height: 206px;
+    width: 270px;
     float: left;
-    margin-right: 59px;
+    margin-right: 62.1px;
     border: 1px solid #e5e5e5;
 }
 
 #work #port-item1 {
     background: url('../img/port1.jpg') no-repeat;
-    background-size: 279.33px;
+    background-size: 270px;
 }
 
 #work #port-item1:hover {
     background: url('../img/port1-h.jpg') no-repeat;
-    background-size: 279.33px;
+    background-size: 270px;
 }
 
 #work #port-item1:hover #port-item1:after {
@@ -276,22 +277,22 @@ header h1, a, p {
 
 #work #port-item2 {
     background: url('../img/port2.jpg') no-repeat;
-    background-size: 279.33px;
+    background-size: 270px;
 }
 
 #work #port-item2:hover {
     background: url('../img/port2-h.jpg') no-repeat;
-    background-size: 279.33px;
+    background-size: 270px;
 }
 
 #work #port-item3 {
     background: url('../img/port3.jpg') no-repeat;
-    background-size: 279.33px;
+    background-size: 270px;
 }
 
 #work #port-item3:hover {
     background: url('../img/port3-h.jpg') no-repeat;
-    background-size: 279.33px;
+    background-size: 270px;
 }
 
 #work .row a:last-child {
@@ -314,7 +315,10 @@ header h1, a, p {
     color: #ecc114;
 }
 
-
+#contact .label .glyphicons-envelope {
+    color: #ec1447;
+    margin-top: 8px;
+}
 
 
 
