@@ -165,15 +165,24 @@ header h1, a, p {
     padding: 0px;
 }
 
-#pattern-top {
+.pattern {
     width: 87.5%;
-    background: url('../img/pattern-top.png') top left repeat-x;
-    background-size: 19.7px;
     height: 8.3px;
     clear: left;
-    margin-top: 20px;
     margin-right: 4.8px;
     float: right;
+
+}
+
+#pattern-top {
+    background: url('../img/pattern-top.png') top left repeat-x;
+    background-size: 19.7px;
+    margin-top: 20px;
+}
+
+#pattern-bottom {
+    background: url('../img/pattern-bottom.png') top left repeat-x;
+    background-size: 19.7px;
 }
 
 #about, #skills {
@@ -324,6 +333,10 @@ header h1, a, p {
     margin-left: 2px;
 }
 
+#contact .content {
+    padding-bottom: 50px;
+}
+
 #contact form label {
     margin-right: 20px;
 }
@@ -392,6 +405,14 @@ header h1, a, p {
 #form-btn:focus {
     border-bottom: 2px solid #cf2b3f;
     padding: 0px;
+}
+
+footer {
+    padding: 30px 9px 30px 0px;
+    clear: both;
+    float: right;
+    font-size: 12px;
+    font-weight: 100;
 }
 
 
