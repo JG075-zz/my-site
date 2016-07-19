@@ -324,7 +324,75 @@ header h1, a, p {
     margin-left: 2px;
 }
 
+#contact form label {
+    margin-right: 20px;
+}
 
+#contact form input {
+    background: #fefefe;
+    border: 1px solid #d1d1d1;
+    height: 36px;
+    padding: 0px 15px;
+}
+
+#form-name {
+    float: left;
+    margin-right: 60px;
+}
+
+#form-name input {
+    width: 300px;
+}
+
+#form-email {
+    clear: right;
+}
+
+#form-email input {
+    width: 379px;
+}
+
+#form-msg {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#form-msg label {
+    float: left;
+    padding-top: 7px;
+}
+
+#form-msg textarea {
+    background: #fefefe;
+    border: 1px solid #d1d1d1;
+    width: 838.5px;
+    height: 170px;
+    margin-left: 13px;
+    padding: 7px 15px;
+    line-height: 2;
+}
+
+#form-btn {
+    color: #fff;
+    background: #fb455a;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    width: 220px;
+    height: 54px;
+    font-size: 18px;
+    float: right;
+    border-bottom: 4px solid #cf2b3f;
+}
+
+#form-btn:hover {
+    background: #fa5d6f;
+}
+
+#form-btn:focus {
+    border-bottom: 2px solid #cf2b3f;
+    padding: 0px;
+}
 
 
 /* ==========================================================================
