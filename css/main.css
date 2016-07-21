@@ -263,51 +263,51 @@ header h1, a, p {
     margin-left: 25px;
 }
 
-
 #work .port-item {
-    height: 206px;
-    width: 270px;
-    float: left;
-    margin-right: 62.1px;
+    display: block;
     border: 1px solid #e5e5e5;
 }
 
+#work .port-item img {
+    width: 100%;
+}
+
+#work .port-outer-container {
+    width: 33.33%;
+    float: left;
+}
+
+#work #port-left {
+    margin-left: 0px;
+}
+
+#work #port-right {
+    margin-right: 0px;
+}
+
+#work .port-inner-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#work .port-item img:hover {
+    opacity: 0;
+}
+
 #work #port-item1 {
-    background: url('../img/port1.jpg') no-repeat;
-    background-size: 270px;
-}
-
-#work #port-item1:hover {
     background: url('../img/port1-h.jpg') no-repeat;
-    background-size: 270px;
-}
-
-#work #port-item1:hover #port-item1:after {
-    content: "cookies";
+    background-size: contain;
 }
 
 #work #port-item2 {
-    background: url('../img/port2.jpg') no-repeat;
-    background-size: 270px;
-}
-
-#work #port-item2:hover {
     background: url('../img/port2-h.jpg') no-repeat;
-    background-size: 270px;
+    background-size: contain;;
 }
 
 #work #port-item3 {
-    background: url('../img/port3.jpg') no-repeat;
-    background-size: 270px;
-}
-
-#work #port-item3:hover {
     background: url('../img/port3-h.jpg') no-repeat;
-    background-size: 270px;
-}
-
-#work .row a:last-child {
-    margin-right: 0px;
+    background-size: contain;
 }
 
 .viewmore {
