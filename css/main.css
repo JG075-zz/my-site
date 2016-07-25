@@ -487,6 +487,7 @@ footer {
 
     .label p {
         float: none;
+        margin-right: none;
     }
 
     .label .glyphicons {
@@ -498,6 +499,26 @@ footer {
     }
 }
 
+@media screen and (max-width: 640px) {
+    #work .port-outer-container {
+        float: none;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 40px;
+    }
+
+    #work #port-left {
+        margin-left: inherit;
+    }
+
+    #work #port-right {
+        margin-right: inherit;
+    }
+
+}
+
+
 @media screen and (max-width: 600px) {
     #form-name .form-field {
         width: 84%;
@@ -505,6 +526,12 @@ footer {
 
     #form-email .form-field {
         width: 84%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #work .port-outer-container {
+        width: 100%;
     }
 }
 
