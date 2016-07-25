@@ -113,6 +113,7 @@ body {
 
 #container {
     max-width: 1170px;
+    min-width: 320px;
     padding: 0px 52px;
     margin-left: auto;
     margin-right: auto;
@@ -130,7 +131,7 @@ header a {
 
 header #head-left {
     float: left;
-    width: 50%;
+    width: 60%;
 }
 
 header #head-left h1 {
@@ -520,13 +521,29 @@ footer {
 
 
 @media screen and (max-width: 600px) {
-    #form-name .form-field {
+    #form-name .form-field, #form-email .form-field  {
         width: 84%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .form-label {
+        float: none;
+        padding-bottom: 3px;
     }
 
-    #form-email .form-field {
-        width: 84%;
+    #form-name .form-field, #form-email .form-field, #form-msg .form-field  {
+        width: 100%;
     }
+
+    #form-msg {
+        padding-top: 20px;
+    }
+
+    #form-msg label {
+        float: none;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -546,6 +563,10 @@ footer {
 
     header #head-left h1 {
         float: none;
+    }
+
+    #pattern-top {
+        height: 8.2px;
     }
 }
 
