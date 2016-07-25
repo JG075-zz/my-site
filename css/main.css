@@ -196,6 +196,7 @@ header h1, a, p {
     padding-top: 45px;
     line-height: 2.467;
     font-size: 20px;
+    box-sizing: border-box;
 }
 
 .label p {
@@ -467,6 +468,29 @@ footer {
 
     #form-msg .form-field {
         width: 84%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pattern {
+        margin-left: 0px;
+    }
+
+    .label {
+        width: 100%;
+        float: none;
+        background: #ffffff;
+        border: 1px solid #ebebeb;
+        border-top: none;
+        border-bottom: none;
+    }
+
+    .label p {
+        float: none;
+    }
+
+    .label .glyphicons {
+        float: left;
     }
 }
 
