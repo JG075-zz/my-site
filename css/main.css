@@ -111,10 +111,10 @@ body {
     font-size: 16px;
 }
 
-#container {
+.container {
     max-width: 1170px;
     min-width: 320px;
-    padding: 0px 52px;
+    padding: 0 52px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -128,12 +128,12 @@ header a {
     color: #000;
 }
 
-header #head-left {
+header .head-left {
     float: left;
-    width: 60%;
+    width: 79%;
 }
 
-header #head-left h1 {
+header .head-left a {
     float: left;
     margin-right: 69px;
     font-family: "Perpetua Titling MT Bold V1", Serif;
@@ -142,7 +142,7 @@ header #head-left h1 {
     margin-top: -14px;
 }
 
-header #head-right a {
+header .head-right a {
     float: right;
     font-weight: 100;
     padding-top: 2px;
@@ -152,7 +152,7 @@ header #head-right a {
     outline:none;
 }
 
-header #head-right a:hover {
+header .head-right a:hover {
     background: url(../img/github-h.png) center right no-repeat;
     background-size: 22px;
     padding-right: 30px;
@@ -160,7 +160,7 @@ header #head-right a:hover {
 }
 
 header h1, a, p {
-    margin: 0px;
+    margin: 0;
 }
 
 .pattern {
@@ -170,14 +170,14 @@ header h1, a, p {
     max-width: 1025px;
 }
 
-#pattern-top {
+.pattern-top {
     background: url('../img/pattern-top.png') top left repeat-x;
     background-size: 19.7px;
     margin-top: 20px;
     height: 8.3px;
 }
 
-#pattern-bottom {
+.pattern-bottom {
     background: url('../img/pattern-bottom.png') top left repeat-x;
     background-size: 19.7px;
     height: 8.3px;
@@ -212,25 +212,25 @@ header h1, a, p {
     line-height: 2.467;
 }
 
-#about .label .glyphicons-user {
+.about .label .glyphicons-user {
     color: #14dfec;
     margin-left: 22px;
 }
 
-#skills ul {
-    margin-bottom: 0px;
+.skills ul {
+    margin-bottom: 0;
 }
 
-#skills ul li {
+.skills ul li {
     list-style: none;
     margin-bottom: 8px;
 }
 
-#skills ul li:last-child {
-    margin-bottom: 0px;
+.skills ul li:last-child {
+    margin-bottom: 0;
 }
 
-#skills ul a {
+.skills ul a {
     background: url(../img/bullet.png) no-repeat center left;
     background-size: 8px;
     padding-left: 30px;
@@ -238,69 +238,69 @@ header h1, a, p {
     color: #222;
 }
 
-#skills ul a:hover {
+.skills ul a:hover {
     background: url(../img/bullet-h.png) no-repeat center left;
     background-size:8px;
     color: #14ec51;
 }
 
-#skills .label .glyphicons-cogwheels {
+.skills .label .glyphicons-cogwheels {
     color: #14ec51;
     margin-left: 20px;
 }
 
-#work p:first-child {
+.work p:first-child {
     margin-bottom: 45px;
 }
 
-#work .label .glyphicons-note {
+.work .label .glyphicons-note {
     color: #ecc114;
     margin-left: 25px;
 }
 
-#work .port-item {
+.work .port-item {
     display: block;
     border: 1px solid #e5e5e5;
 }
 
-#work .port-item img {
+.work .port-item img {
     width: 100%;
 }
 
-#work .port-outer-container {
+.work .port-outer-container {
     width: 33.33%;
     float: left;
 }
 
-#work #port-left {
-    margin-left: 0px;
-}
-
-#work #port-right {
-    margin-right: 0px;
-}
-
-#work .port-inner-container {
+.work .port-inner-container {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
 
-#work .port-item img:hover {
+.work .port-left {
+    margin-left: 0;
+}
+
+.work .port-right {
+    margin-right: 0;
+}
+
+.work .port-item img:hover {
     opacity: 0;
 }
 
-#work #port-item1 {
+.work .port-item1 {
     background: url('../img/port1-h.jpg') no-repeat;
     background-size: contain;
 }
 
-#work #port-item2 {
+.work .port-item2 {
     background: url('../img/port2-h.jpg') no-repeat;
     background-size: contain;
 }
 
-#work #port-item3 {
+.work .port-item3 {
     background: url('../img/port3-h.jpg') no-repeat;
     background-size: contain;
 }
@@ -321,12 +321,12 @@ header h1, a, p {
     color: #ecc114;
 }
 
-#contact .label .glyphicons-envelope {
+.contact .label .glyphicons-envelope {
     color: #ec1447;
     margin-left: 2px;
 }
 
-#contact .content {
+.contact .content {
     padding-bottom: 50px;
 }
 
@@ -339,65 +339,65 @@ header h1, a, p {
     float: left;
 }
 
-#form-name .form-field {
+.form-name .form-field {
     width: 70%;
 }
 
-#form-email .form-field {
+.form-email .form-field {
     width: 84%;
 }
 
-#form-msg .form-label {
+.form-msg .form-label {
     width: 7.8%;
 }
 
-#form-msg .form-field {
+.form-msg .form-field {
     width: 92.2%;
 }
 
-#contact form input {
+.contact form input {
     height: 36px;
-    padding: 0px 15px;
+    padding: 0 15px;
 }
 
-#form-name, #form-email {
+.form-name, .form-email {
     float: left;
     overflow: hidden;
 }
 
-#form-name {
+.form-name {
     width: 48.7%;
 }
 
-#contact form input, #contact form textarea {
+.contact form input, .contact form textarea {
     width: 100%;
     background: #fefefe;
     border: 1px solid #d1d1d1;
     box-sizing: border-box;
 }
 
-#form-email {
+.form-email {
     width: 51.3%;
 }
 
-#form-msg {
+.form-msg {
     margin-bottom: 20px;
     padding-top: 30px;
     clear: both;
     overflow: hidden;
 }
 
-#form-msg label {
+.form-msg label {
     padding-top: 7px;
 }
 
-#form-msg textarea {
+.form-msg textarea {
     height: 170px;
     padding: 7px 15px;
     line-height: 2;
 }
 
-#form-btn {
+.form-btn {
     color: #fff;
     background: #fb455a;
     border: none;
@@ -410,11 +410,11 @@ header h1, a, p {
     border-bottom: 4px solid #cf2b3f;
 }
 
-#form-btn:hover {
+.form-btn:hover {
     background: #fa5d6f;
 }
 
-#form-btn:focus {
+.form-btn:focus {
     border-bottom: 2px solid #cf2b3f;
     padding: 0px;
 }
@@ -427,33 +427,35 @@ footer {
 }
 
 @media screen and (max-width: 930px) {
-    #form-name {
+    .form-name {
         padding-bottom: 20px;
     }
 
-    #form-name, #form-email {
+    .form-name, .form-email {
         float: none;
         width: 100%;
     }
 
-    #form-name .form-field {
+    .form-name .form-field {
         width: 50%;
     }
 
-    #form-email .form-field {
+    .form-email .form-field {
         width: 70%;
     }
 
-    #form-msg .form-label {
+    .form-msg .form-label {
         width: 16%;
     }
 
-    #form-msg .form-field {
+    .form-msg .form-field {
         width: 84%;
     }
 
-    #form-msg {
+    .form-msg {
         padding-top: 20px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -479,13 +481,13 @@ footer {
         float: left;
     }
 
-    #contact .label .glyphicons-envelope {
+    .contact .label .glyphicons-envelope {
         margin-left: 25px;
     }
 }
 
 @media screen and (max-width: 640px) {
-    #work .port-outer-container {
+    .work .port-outer-container {
         float: none;
         width: 70%;
         margin-left: auto;
@@ -493,11 +495,11 @@ footer {
         padding-bottom: 40px;
     }
 
-    #work #port-left {
+    .work .port-left {
         margin-left: inherit;
     }
 
-    #work #port-right {
+    .work .port-right {
         margin-right: inherit;
     }
 
@@ -505,7 +507,7 @@ footer {
 
 
 @media screen and (max-width: 600px) {
-    #form-name .form-field, #form-email .form-field  {
+    .form-name .form-field, .form-email .form-field  {
         width: 84%;
     }
 }
@@ -516,26 +518,37 @@ footer {
         padding-bottom: 3px;
     }
 
-    #form-name .form-field, #form-email .form-field, #form-msg .form-field  {
+    .form-name .form-field, .form-email .form-field, .form-msg .form-field  {
         width: 100%;
     }
 
 }
 
 @media screen and (max-width: 517px) {
-    #container {
+    .container {
         padding: 0px 30px;
     }
 }
 
 @media screen and (max-width: 480px) {
-    #work .port-outer-container {
+    .work .port-outer-container {
         width: 100%;
     }
 }
 
+@media screen and (max-width: 448px) {
+    header .head-left {
+        width: 60%;
+    }
+
+    header .head-left a {
+        margin-right: 1000px;
+        margin-bottom: 5px;
+    }
+}
+
 @media screen and (max-width: 430px) {
-    #container {
+    .container {
         padding: 0px;
     }
 
@@ -543,11 +556,11 @@ footer {
         padding: 45px 30px 0px 30px;
     }
 
-    header #head-left h1 {
+    header .head-left h1 {
         float: none;
     }
 
-    #pattern-top {
+    .pattern-top {
         height: 8.2px;
     }
 
