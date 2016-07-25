@@ -149,7 +149,10 @@ header .head-right a {
     background: url(../img/github.png) center right no-repeat;
     background-size: 22px;
     padding-right: 30px;
-    outline:none;
+}
+
+header .head-right a:focus {
+    outline: none;
 }
 
 header .head-right a:hover {
@@ -159,7 +162,7 @@ header .head-right a:hover {
     text-decoration: underline;
 }
 
-header h1, a, p {
+a, p {
     margin: 0;
 }
 
@@ -231,9 +234,12 @@ header h1, a, p {
 }
 
 .skills ul a {
+    padding-left: 30px;
+}
+
+.viewmore, .skills ul a {
     background: url(../img/bullet.png) no-repeat center left;
     background-size: 8px;
-    padding-left: 30px;
     text-decoration: none;
     color: #222;
 }
@@ -306,13 +312,9 @@ header h1, a, p {
 }
 
 .viewmore {
-    background: url(../img/bullet.png) no-repeat center left;
-    background-size: 8px;
     padding-left: 20px;
     float: right;
     margin-top: 30px;
-    text-decoration: none;
-    color: #222;
 }
 
 .viewmore:hover {
@@ -416,11 +418,11 @@ header h1, a, p {
 
 .form-btn:focus {
     border-bottom: 2px solid #cf2b3f;
-    padding: 0px;
+    padding: 0;
 }
 
 footer {
-    padding: 30px 9px 30px 0px;
+    padding: 30px 9px 30px 0;
     float: right;
     font-size: 12px;
     font-weight: 100;
@@ -460,7 +462,7 @@ footer {
 
 @media screen and (max-width: 768px) {
     .pattern {
-        margin-left: 0px;
+        margin-left: 0;
     }
 
     .label {
@@ -474,7 +476,7 @@ footer {
 
     .label p {
         float: none;
-        margin-right: none;
+        margin-right: 0;
     }
 
     .label .glyphicons {
@@ -526,7 +528,7 @@ footer {
 
 @media screen and (max-width: 517px) {
     .container {
-        padding: 0px 30px;
+        padding: 0 30px;
     }
 }
 
@@ -549,15 +551,11 @@ footer {
 
 @media screen and (max-width: 430px) {
     .container {
-        padding: 0px;
+        padding: 0;
     }
 
     header {
-        padding: 45px 30px 0px 30px;
-    }
-
-    header .head-left h1 {
-        float: none;
+        padding: 45px 30px 0 30px;
     }
 
     .pattern-top {
