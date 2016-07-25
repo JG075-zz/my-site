@@ -117,7 +117,6 @@ body {
     padding: 0px 52px;
     margin-left: auto;
     margin-right: auto;
-    overflow: hidden;
 }
 
 header {
@@ -154,16 +153,14 @@ header #head-right a {
 }
 
 header #head-right a:hover {
-    font-weight: 300;
-    color: #7c7c7c;
     background: url(../img/github-h.png) center right no-repeat;
     background-size: 22px;
     padding-right: 30px;
+    text-decoration: underline;
 }
 
 header h1, a, p {
     margin: 0px;
-    padding: 0px;
 }
 
 .pattern {
@@ -186,14 +183,9 @@ header h1, a, p {
     height: 8.3px;
 }
 
-#about, #skills {
-    clear: both;
-}
-
 .label {
     float: left;
     width: 139.35px;
-    background: none;
     padding-top: 45px;
     line-height: 2.467;
     font-size: 20px;
@@ -437,7 +429,6 @@ header h1, a, p {
 
 footer {
     padding: 30px 9px 30px 0px;
-    clear: both;
     float: right;
     font-size: 12px;
     font-weight: 100;
@@ -470,6 +461,9 @@ footer {
     #form-msg .form-field {
         width: 84%;
     }
+
+    #form-msg {
+        padding-top: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -536,14 +530,16 @@ footer {
         width: 100%;
     }
 
-    #form-msg {
-        padding-top: 20px;
-    }
-
     #form-msg label {
         float: none;
     }
 
+}
+
+@media screen and (max-width: 517px) {
+    #container {
+        padding: 0px 30px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -567,6 +563,10 @@ footer {
 
     #pattern-top {
         height: 8.2px;
+    }
+
+    footer p {
+        padding-right: 5px;
     }
 }
 
