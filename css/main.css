@@ -373,6 +373,7 @@ header h1, a, p {
 #form-name {
     float: left;
     width: 48.7%;
+    overflow: hidden;
 }
 
 #form-name input {
@@ -444,7 +445,6 @@ footer {
 @media screen and (max-width: 930px) {
     #form-name {
         float: none;
-        overflow: hidden;
         width: 100%;
         padding-bottom: 20px;
     }
@@ -494,7 +494,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 600px) {
     #form-name .form-field {
         width: 84%;
     }
