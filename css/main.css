@@ -535,6 +535,20 @@ footer {
     }
 }
 
+@media screen and (max-width: 430px) {
+    #container {
+        padding: 0px;
+    }
+
+    header {
+        padding: 45px 30px 0px 30px;
+    }
+
+    header #head-left h1 {
+        float: none;
+    }
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
