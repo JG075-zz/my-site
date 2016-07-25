@@ -492,6 +492,10 @@ footer {
     .label .glyphicons {
         float: left;
     }
+
+    #contact .label .glyphicons-envelope {
+        margin-left: 25px;
+    }
 }
 
 @media screen and (max-width: 600px) {
