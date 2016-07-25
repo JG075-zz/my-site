@@ -374,7 +374,6 @@ header h1, a, p {
 }
 
 #form-email {
-    clear: right;
     width: 51.3%;
     float: left;
 }
