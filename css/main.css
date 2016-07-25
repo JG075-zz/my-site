@@ -336,8 +336,29 @@ header h1, a, p {
     padding-bottom: 50px;
 }
 
-#contact form label {
-    margin-right: 20px;
+.form-label {
+    float: left;
+    width: 16%;
+}
+
+.form-field {
+    float: left;
+}
+
+#form-name .form-field {
+    width: 70%;
+}
+
+#form-email .form-field {
+    width: 84%;
+}
+
+#form-msg .form-label {
+    width: 7.8%;
+}
+
+#form-msg .form-field {
+    width: 92.2%;
 }
 
 #contact form input {
@@ -345,28 +366,33 @@ header h1, a, p {
     border: 1px solid #d1d1d1;
     height: 36px;
     padding: 0px 15px;
+    box-sizing: border-box;
 }
 
 #form-name {
     float: left;
-    margin-right: 60px;
+    width: 48.7%;
 }
 
 #form-name input {
-    width: 300px;
+    width: 100%;
 }
 
 #form-email {
     clear: right;
+    width: 51.3%;
+    float: left;
 }
 
 #form-email input {
-    width: 379px;
+    width: 100%;
 }
 
 #form-msg {
-    margin-top: 30px;
     margin-bottom: 20px;
+    padding-top: 30px;
+    clear: both;
+    overflow: hidden;
 }
 
 #form-msg label {
@@ -377,11 +403,11 @@ header h1, a, p {
 #form-msg textarea {
     background: #fefefe;
     border: 1px solid #d1d1d1;
-    width: 838.5px;
+    width: 100%;
     height: 170px;
-    margin-left: 13px;
     padding: 7px 15px;
     line-height: 2;
+    box-sizing: border-box;
 }
 
 #form-btn {
