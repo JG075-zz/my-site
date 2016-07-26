@@ -1,10 +1,10 @@
-/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+/* --------------------------------------------------------
+version: 1.0
+last modified: 26.07.2016 by James Gardiner
+author: James Gardiner
+----------------------------------------------------------*/
 
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -433,6 +433,8 @@ footer {
     font-weight: 100;
 }
 
+/* Make form responsive */
+
 @media screen and (max-width: 930px) {
     .form-name {
         padding-bottom: 20px;
@@ -465,6 +467,8 @@ footer {
 
 }
 
+/* Make labels stack vertically */
+
 @media screen and (max-width: 768px) {
     .pattern {
         margin-left: 0;
@@ -493,6 +497,8 @@ footer {
     }
 }
 
+/* Make portfolio items stack vertically */
+
 @media screen and (max-width: 640px) {
     .work .port-outer-container {
         float: none;
@@ -512,12 +518,15 @@ footer {
 
 }
 
+/* Stretch form fields to fill container with label */
 
 @media screen and (max-width: 600px) {
     .form-name .form-field, .form-email .form-field  {
         width: 84%;
     }
 }
+
+/* Stack labels on top of form fields and make form fields full width */
 
 @media screen and (max-width: 500px) {
     .form-label {
@@ -531,17 +540,23 @@ footer {
 
 }
 
+/* Reduce container left and right padding */
+
 @media screen and (max-width: 517px) {
     .container {
         padding: 0 30px;
     }
 }
 
+/* Resize portfolio items */
+
 @media screen and (max-width: 480px) {
     .work .port-outer-container {
         width: 100%;
     }
 }
+
+/* Move tagline under home page link */
 
 @media screen and (max-width: 448px) {
     header .head-left {
@@ -552,7 +567,13 @@ footer {
         margin-right: 1000px;
         margin-bottom: 5px;
     }
+
+    header .head-left p {
+        margin-left: 5px;
+    }
 }
+
+/* Remove container padding for small devices */
 
 @media screen and (max-width: 430px) {
     .container {
@@ -644,23 +665,6 @@ footer {
 
 .clearfix:after {
     clear: both;
-}
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
 }
 
 /* ==========================================================================
