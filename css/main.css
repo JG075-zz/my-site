@@ -141,11 +141,10 @@ header .head-left {
 
 header .head-left a {
     float: left;
-    margin-right: 69px;
+    margin: -14px 60px 0 5px;
     font-family: "Perpetua Titling MT Bold V1", Serif;
-    font-size: 35px;
+    font-size: 38px;
     font-weight: 100;
-    margin-top: -14px;
 }
 
 header .head-right a {
