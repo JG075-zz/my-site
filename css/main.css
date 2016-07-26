@@ -111,6 +111,12 @@ body {
     font-size: 16px;
 }
 
+h2 {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+}
+
 .container {
     max-width: 1170px;
     min-width: 320px;
@@ -195,7 +201,7 @@ a, p {
     box-sizing: border-box;
 }
 
-.label p {
+.label h2 {
     float: right;
     margin-right: 20px;
 }
@@ -474,9 +480,9 @@ footer {
         border-bottom: none;
     }
 
-    .label p {
+    .label h2 {
         float: none;
-        margin-right: 0;
+        margin: 0 0 0 60px;
     }
 
     .label .glyphicons {
